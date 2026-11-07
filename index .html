@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Little Apology for You ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="floating-hearts" id="hearts"></div>
+
+    <main class="container">
+
+        <div class="top-label">A LITTLE MESSAGE FOR YOU ♡</div>
+
+        <div class="main-heart">💗</div>
+
+        <h1>I'm Sorry,<br><span>Sayang...</span></h1>
+
+        <p class="subtitle">
+            Ada sesuatu yang ingin aku sampaikan
+            dari hati yang paling dalam.
+        </p>
+
+        <div class="envelope-area" id="envelopeArea">
+            <div class="envelope" id="envelope">
+                <div class="letter">
+                    <span>For You ♡</span>
+                </div>
+                <div class="envelope-back"></div>
+                <div class="envelope-flap"></div>
+                <div class="envelope-front"></div>
+                <div class="envelope-heart">♥</div>
+            </div>
+        </div>
+
+        <p class="click-hint" id="hint">
+            Tap amplopnya untuk membuka surat 💌
+        </p>
+
+        <section class="letter-content" id="letterContent">
+
+            <div class="divider">♡ &nbsp; ♡ &nbsp; ♡</div>
+
+            <h2>Untuk Sayangku</h2>
+
+            <p id="typedMessage"></p>
+
+            <p class="closing">
+                Aku mungkin tidak sempurna,
+                tapi aku ingin terus belajar menjadi
+                seseorang yang lebih baik untuk kita.
+            </p>
+
+            <div class="signature">
+                With love,<br>
+                <span>Your Favorite Person ❤️</span>
+            </div>
+
+            <div class="question">
+                <h2>Can we talk again? 🥺</h2>
+                <p>Aku ingin mendengarkan perasaan kamu juga.</p>
+
+                <button class="yes-button" onclick="chooseAnswer('yes')">
+                    Aku mau ❤️
+                </button>
+
+                <button class="time-button" onclick="chooseAnswer('time')">
+                    Aku masih butuh waktu 🤍
+                </button>
+
+                <p id="answerMessage" class="answer-message"></p>
+            </div>
+
+        </section>
+
+        <footer>
+            Made with lots of love ♡
+            <br>
+            <span>Especially for Sayang</span>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
